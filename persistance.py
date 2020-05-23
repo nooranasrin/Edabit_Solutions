@@ -28,10 +28,15 @@ def additive_persistence(n):
     return iterations
 
 
-print(additive_persistence(1679583))
-print(additive_persistence(123456))
-print(additive_persistence(6))
+def main():
+    print(additive_persistence(1679583))
+    print(additive_persistence(123456))
+    print(additive_persistence(6))
 
-print(multiplicative_persistence(77))
-print(multiplicative_persistence(123456))
-print(multiplicative_persistence(4))
+    print(multiplicative_persistence(77))
+    print(multiplicative_persistence(123456))
+    print(multiplicative_persistence(4))
+
+
+main()
+

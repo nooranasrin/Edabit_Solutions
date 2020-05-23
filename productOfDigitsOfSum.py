@@ -12,7 +12,11 @@ def sum_dig_prod(*args):
     return product
 
 
-print(sum_dig_prod(16, 28))
-print(sum_dig_prod(0))
-print(sum_dig_prod(1, 2, 3, 4, 5, 6))
+def main():
+    print(sum_dig_prod(16, 28))
+    print(sum_dig_prod(0))
+    print(sum_dig_prod(1, 2, 3, 4, 5, 6))
+
+
+main()
 

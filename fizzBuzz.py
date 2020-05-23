@@ -23,7 +23,11 @@ def fizz_buzz(num):
     return 'Buzz' if num % 5 == 0 else str(num)
 
 
-print(fizz_buzz(3))
-print(fizz_buzz(10))
-print(fizz_buzz(15))
-print(fizz_buzz(16))
+def main():
+    print(fizz_buzz(3))
+    print(fizz_buzz(10))
+    print(fizz_buzz(15))
+    print(fizz_buzz(16))
+
+
+main()

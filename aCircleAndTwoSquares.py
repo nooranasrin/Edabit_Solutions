@@ -6,6 +6,9 @@ def square_areas_difference(r):
     return 2 * r ** 2
 
 
-print(square_areas_difference(5))
-print(square_areas_difference(6))
+def main():
+    print(square_areas_difference(5))
+    print(square_areas_difference(6))
 
+
+main()

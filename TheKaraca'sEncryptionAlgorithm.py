@@ -4,6 +4,11 @@ def encrypt(string):
     return reverse.translate(new_string) + 'aca'
 
 
-print(encrypt('apple'))
-print(encrypt('banana'))
-print(encrypt('karaca'))
+def main():
+    print(encrypt('apple'))
+    print(encrypt('banana'))
+    print(encrypt('karaca'))
+
+
+main()
+
